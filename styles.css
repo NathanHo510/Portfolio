@@ -1,0 +1,155 @@
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: Abolition-soft, sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+ .black {
+     background-color: black;
+ }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    text-align: center;
+    display: block;
+    padding-right: 50px;
+    padding-left: 75px;
+    font-family: open-sans-condensed, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+ul li a:hover {
+    color: #1616F4;
+}
+
+.intro {
+    background-color: black;
+}
+.intro > img{
+    padding: 20px;
+    padding-bottom: none;
+}
+
+.intro, p {
+    color: white;
+    padding: 10px;
+    padding-top: none;
+    font-family: open;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+Section > article:nth-child(3n+1) {
+    background-color: black;
+    border: none;
+}
+
+section > article:nth-child(5) {
+    background-color: black;
+    border: none;
+}
+
+article {
+    background-color: black;
+    padding: 35px;
+    padding-right: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+article p {
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.mint {
+    border: 1.5px solid #0BF7AD;
+}
+
+.blue {
+    border: 1.5px solid #1616F4;
+}
+
+.pink {
+    border: 1.5px solid #F411C9;
+}
+
+p {
+    line-height: 1.6em;
+    background-color: white;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer p a {
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+footer p a:hover {
+    color: #1616F4;
+}
+
+@media (min-width: 600px) {
+
+    .intro {
+        display: flex;
+        margin: 20px;
+        margin-top: none;
+    }
+
+    .content, article {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article, h2 {
+        display: block;
+        flex-wrap: none;
+    }
+
+    .inside {
+        max-width: 800px;
+    }
+
+    .inside > img {
+        background: black;
+        padding: 40px 187px 40px 184px;
+    }
+
+    
+}
+
