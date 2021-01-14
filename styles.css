@@ -150,6 +150,13 @@ footer p a:hover {
         padding: 40px 187px 40px 184px;
     }
 
-    
+}
+footer {
+ background-color: black;
+ height: 2px;
+ font-size: 1.2em;
+ color: #fff;
+ text-align: center;
+ padding: 1.5em 2.0em;
 }
 
